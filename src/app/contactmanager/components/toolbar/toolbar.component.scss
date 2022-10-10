@@ -1,0 +1,24 @@
+.mat-toolbar {
+  background-color: steelblue;
+  padding : 20px ;
+
+
+}
+.eb3ed {
+  padding : 2px ;
+  text-space: 5px;
+}
+.sidenav-toggle {
+  display: none;
+  @media (max-width: 720px) {
+    display: flex;
+
+  }
+}
+
+.example-icon {
+  padding: 0 14px;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}

@@ -1,0 +1,31 @@
+:host {
+  display: flex;
+ flex-direction: column;
+  align-items: flex-start;
+}
+.container {
+  width: 100%;
+}
+
+.left {
+  flex: 0 1 auto;
+}
+.right {  margin-left: 100px}
+
+.colorful {color: steelblue ; }
+
+.text {font-family: cursive}
+
+.ngx-mat-timepicker {
+  .mat-form-field-appearance-outline {
+    width: 50px !important;
+    max-width: 50px !important;
+    .mat-form-field-wrapper {
+      padding-bottom: 0;
+    }
+
+    .mat-form-field-infix {
+      border-top: 0.36em solid transparent;
+    }
+  }
+}
